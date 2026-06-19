@@ -13,7 +13,6 @@ Windows向けデスクトップアプリです。
 ■ 画面OCR
 - 任意の画面範囲をドラッグで指定
 - 以下のOCR方式を切り替え可能
-  - Tesseract OCR（複数モード）
   - EasyOCR
   - ローカルLLM OCR（Ollama / Vision対応モデル）
 
@@ -47,6 +46,7 @@ Windows向けデスクトップアプリです。
 - Windows 10 / 11（64bit）
 - GPU搭載環境推奨（ローカルLLM使用時）
 - Python環境は不要（exe版の場合）
+- pyenv + poetryでセットアップするようにしています。git cloneした後に、poetry install してください。必要なパッケージがインストールされます。
 
 
 必要な外部ソフト（任意）
