@@ -1,0 +1,22 @@
+[project]
+name = "ocr-trans-overlay"
+version = "0.6.0"
+description = ""
+authors = [
+    {name = "Atsushi",email = "atsushi.shindo@it-libero.jp"}
+]
+requires-python = ">=3.12,<3.14.1"
+dependencies = [
+    "mss (>=10.2.0,<11.0.0)",
+    "easyocr (>=1.7.2,<2.0.0)",
+    "numpy (>=2.4.6,<3.0.0)",
+    "pillow (>=12.2.0,<13.0.0)",
+    "pyside6 (>=6.11.1,<7.0.0)",
+    "deep-translator (>=1.11.4,<2.0.0)",
+    "torchvision (>=0.27.1,<0.28.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
