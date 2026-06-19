@@ -222,5 +222,5 @@ __marimo__/
 # app
 .ini
 .json
-old/
-debug/
+/old/
+/debug/
