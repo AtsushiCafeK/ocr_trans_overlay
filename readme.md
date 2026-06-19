@@ -60,12 +60,7 @@ https://ollama.com/
 - gemma3:27b（高精度・VRAM消費大）
 - llama3.x 系 など
 
-※ Ollamaを使わない場合でも、Google翻訳＋Tesseractで動作します。
-
-■ Tesseract OCR（Tesseract使用時）
-https://github.com/tesseract-ocr/tesseract
-
-※ EasyOCR / LLM OCRのみ使う場合は不要です。
+※ Ollamaを使わない場合でも、Google翻訳＋で動作します。
 
 
 使い方
